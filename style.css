@@ -1,0 +1,198 @@
+ @import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.wrapper{
+    height:100vh;
+overflow-y: auto; 
+overflow-x:hidden;
+   
+  
+    
+}
+
+header{
+    height:7.8%;
+  width:100%;
+    background-color: rgb(57, 57, 57);
+    display:flex;
+    justify-content: space-between;
+    
+   
+    
+}
+ header h2{
+    line-height:200%;
+    color:white;
+    margin-left: 1.8%;
+    margin-top: 0.8%;
+    font-family: Borel;
+}
+
+nav ul {
+
+    display: flex;
+    list-style-type: none;;
+    justify-content: center;
+    align-items: center;
+    gap:25%;
+    line-height:350% ;   
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.35rem;
+    color:white;
+    font-weight: bold;;
+}
+.btn1{
+    margin-right: 2%;
+    height:5vh;
+  margin-top:0.9%;
+    width:8.9%;
+    background-color: rgb(213, 168, 109);
+
+    border:none;
+    border-radius:6.5%;
+}
+.btn1 a{
+    text-decoration: none;
+    color:rgb(243, 240, 240);
+    font-size: 1.2rem;
+  
+}
+nav ul li a:hover{
+    color:rgb(246, 210, 95);
+    transition:all 0.2s ease 0s;
+    
+}
+.btn1:hover{
+    background-color:rgb(225, 136, 19);
+
+}
+.content{
+   /* position:absolute;*/
+     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('pexels-nati-16710260.jpg');
+     background-size: cover;
+     background-position: center;
+     height:95%;
+     width:100%;
+  
+ }
+
+ .bgimage h1{
+  /*  position:relative;*/
+    font-family: 'Roboto Slab', serif;
+  /*margin-top:210px;*/
+  padding-top:15%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:4.5rem;
+    color:white;
+
+    
+}
+.bgimage h2{
+    font-family: 'Josefin Sans', sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.4rem;
+    color:white;
+
+}
+ .content .btn2{
+margin-right: 45%;
+height:5vh;
+margin-top:3%;
+width:10%;
+background-color: rgb(213, 168, 109);
+
+border:none;
+border-radius:5%;
+margin-left:45%
+}
+ .btn2 a{
+text-decoration: none;
+color:rgb(243, 240, 240);
+font-size: 1.4rem;
+
+text-align: center;
+}
+
+.content .bgimage .btn2:hover{
+background-color:rgb(225, 136, 19);
+}
+
+.about{
+
+    height:75%;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    gap:18%;
+   
+
+}
+ .box1 img{
+  
+    height:89%;
+    width:77%;
+    padding-top:12%;
+    padding-left:7%;
+ }
+ .box1{
+    display:flex;
+    gap:1%;
+ }
+ .box1 #pic2{
+margin-top:12%;
+ }
+ .box2 #first{
+    padding-top:9%;
+    font-family: 'Great Vibes', cursive;
+    font-size:5.5rem;
+    color:#C8A97E;
+    font-weight:590;
+ }
+ .box2 #second{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    margin-top:0.1%;
+   
+ }
+ .box2 p{
+    padding-top:0.2%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+     
+ }
+ #third{
+    margin-top:1.5%;
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+ }
+ .about h2{
+    font-size:2rem;
+    color:#C8A97E;
+    margin-left:-68%;
+    font-family: 'Poppins', sans-serif;
+
+ }
+ 
